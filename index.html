@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Document</title>
+</head>
+
+<h1>APRIRE PACCHETTO FIGURINE</h1>
+
+<p>
+    OGGETTO - PACCHETTO -->
+
+    - contenitore di items NEW
+    - busta
+    - rettangolare
+    - materiale plastico
+    - maneggiabile
+    - dimensioni ridotte
+    -- contenitore di CARD
+
+    OGGETTO - CARD -->
+
+    - rappresentatore di concetti
+    - descittore
+    - rettangolare
+    - materiale cartaceo
+    - maneggiabile
+    - dimesioni ridotte
+    -- contenitore di concetti in ALBUM
+
+    OGGETTO - ALBUM -->
+
+    - contenitore di items OLD
+    - libro
+    - rettangolare
+    - materiale vario
+    - maneggiabile
+    - dimensioni medie
+    -- contenitore di CARD OLD (non doppioni)
+
+    OGGETTO - MAZZO DOPPIONI -->
+
+    - contenitore di items OLD AND POSSEDUTE
+    - insieme di CARD
+    - insieme di rettangoli
+    - materiale cartaceo
+    - maneggiabile
+    - dimensioni medie
+    -- contenitore di CARD OLD (doppioni)
+
+    AZIONI:
+
+    - apri il pacchetto
+    - sfila le carte dal pacchetto
+    - controlla le carte
+    - SE nuove
+    ---- ALLORA inserisci nell'album
+    - OPPURE se doppione
+    ---- ALLORA inserisci nel mazzo doppioni
+    - FINCHE' avanzano carte: ripeti ciclo da inizio
+
+    -quando carte nuove=0
+    ---- ALLORA controllo mazzo doppioni
+    - SE mazzo doppioni > 0
+    ---- ALLORA scambio = VERO
+</p>
+
+</body>
+
+</html>
